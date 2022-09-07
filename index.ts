@@ -27,4 +27,4 @@ export async function batchMerge(
 
 const input = join(__dirname, "input");
 const output = join(__dirname, "output");
-batchMerge(input, output, 1000);
+batchMerge(input, output, 10);
